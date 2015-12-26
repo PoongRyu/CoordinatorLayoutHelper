@@ -12,7 +12,7 @@ Current version: [0.1.0]
 
 Gradle:
 ```groovy
-compile 'com.github.dubulee:coordinatorlayouthelper:0.1.2'
+compile 'com.github.dubulee:coordinatorlayouthelper:0.1.0'
 ```
 
 How to Use
