@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-//apply plugin: 'com.novoda.bintray-release'
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -28,3 +28,4 @@ dependencies {
     compile fileTree(':coordinatorlayouthelper')
     compile project(path: ':coordinatorlayouthelper')
 }
+
