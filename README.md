@@ -15,6 +15,10 @@ Gradle:
 compile 'com.github.dubulee:coordinatorlayouthelper:0.1.0'
 ```
 
+ScreenShot
+------
+![ScreenShot](art/coordinatorlayouthelperscreenshot.gif)!
+
 How to Use
 ------
 Using the library is really simple.
