@@ -24,7 +24,7 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        
         HeaderLayout headerLayout = (HeaderLayout) findViewById(R.id.header_layout);
 
         CoordinatorLayoutHelperViewPager viewPager = (CoordinatorLayoutHelperViewPager) findViewById(R.id.viewpager);

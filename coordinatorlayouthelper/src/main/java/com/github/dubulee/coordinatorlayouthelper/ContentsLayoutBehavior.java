@@ -4,7 +4,6 @@ import android.content.Context;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -49,7 +48,6 @@ public class ContentsLayoutBehavior extends ViewOffsetBehavior {
 
     @Override
     public boolean onDependentViewChanged(CoordinatorLayout parent, View child, View dependency) {
-        Log.d("dlworlf", "rlarmatnCC ");
         CoordinatorLayout.Behavior behavior = ((CoordinatorLayout.LayoutParams) dependency.getLayoutParams()).getBehavior();
         if (behavior instanceof HeaderLayoutBehavior) {
             int headerOffset = ((HeaderLayoutBehavior) behavior).getTopAndBottomOffset();
@@ -62,14 +60,11 @@ public class ContentsLayoutBehavior extends ViewOffsetBehavior {
 
     @Override
     public boolean onStartNestedScroll(CoordinatorLayout coordinatorLayout, View child, View directTargetChild, View target, int nestedScrollAxes) {
-        Log.d("dlworlf", "rlarmatnAA " + child + " " + directTargetChild + " " + target);
-
         return super.onStartNestedScroll(coordinatorLayout, child, directTargetChild, target, nestedScrollAxes);
     }
 
     @Override
     public void onNestedPreScroll(CoordinatorLayout coordinatorLayout, View child, View target, int dx, int dy, int[] consumed) {
-        Log.d("dlworlf", "rlarmatnBB " + child + " " + "" + " " + target);
         super.onNestedPreScroll(coordinatorLayout, child, target, dx, dy, consumed);
     }
 
