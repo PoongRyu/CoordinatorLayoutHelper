@@ -33,7 +33,7 @@ publish {
     userOrg = 'dubulee'
     groupId = 'com.github.dubulee'
     artifactId = 'coordinatorlayouthelper'
-    publishVersion = '0.1.0'
+    publishVersion = '0.1.1'
     desc = 'android custom coordinator layout behavior library and sample'
     website = 'https://github.com/DUBULEE/CoordinatorLayoutHelper'
     issueTracker = "${website}/issues"

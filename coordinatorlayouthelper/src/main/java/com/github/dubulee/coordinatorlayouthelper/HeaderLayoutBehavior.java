@@ -32,6 +32,7 @@ public class HeaderLayoutBehavior<V extends View> extends ViewOffsetBehavior<Hea
 
     private int mScrollRootViewPosition = -1;
 
+    @Deprecated
     private int mScrollViewPosition = -1;
 
     private CoordinatorLayoutHelperViewPager mViewPager = null;
@@ -100,6 +101,7 @@ public class HeaderLayoutBehavior<V extends View> extends ViewOffsetBehavior<Hea
         mScrollRootViewPosition = scrollRootViewPosition;
     }
 
+    @Deprecated
     //TODO Improve Detect Scrollview (like. Recycler View)
     public void setScrollViewPosition(int scrollViewPosition) {
         mScrollViewPosition = scrollViewPosition;
@@ -108,6 +110,7 @@ public class HeaderLayoutBehavior<V extends View> extends ViewOffsetBehavior<Hea
     //TODO Improve
     private void setScrollView(CoordinatorLayout coordinatorLayout) {
         ViewGroup rootViewGroup = (ViewGroup) coordinatorLayout.getChildAt(mScrollRootViewPosition);
+
         if (coordinatorLayout.getChildAt(mScrollRootViewPosition) instanceof CoordinatorLayoutHelperViewPager) {
             mViewPager = (CoordinatorLayoutHelperViewPager) coordinatorLayout.getChildAt(mScrollRootViewPosition);
         }
@@ -116,15 +119,17 @@ public class HeaderLayoutBehavior<V extends View> extends ViewOffsetBehavior<Hea
         }
 
         findHeaderLayout(rootViewGroup);
-        if (null != rootViewGroup) {
-            if (rootViewGroup.getChildAt(mScrollViewPosition) instanceof CoordinatorLayoutHelperRecyclerView) {
-                mScrollView = (CoordinatorLayoutHelperRecyclerView) rootViewGroup.getChildAt(mScrollViewPosition);
-            } else {
-                mScrollView = null;
-            }
-        } else {
-            mScrollView = null;
-        }
+
+
+//        if (null != rootViewGroup) {
+//            if (rootViewGroup.getChildAt(mScrollViewPosition) instanceof CoordinatorLayoutHelperRecyclerView) {
+//                mScrollView = (CoordinatorLayoutHelperRecyclerView) rootViewGroup.getChildAt(mScrollViewPosition);
+//            } else {
+//                mScrollView = null;
+//            }
+//        } else {
+//            mScrollView = null;
+//        }
     }
 
     private void findHeaderLayout(ViewGroup rootViewGroup) {
