@@ -8,7 +8,6 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 
 import com.github.dubulee.coordinatorlayouthelper.CoordinatorLayoutHelperViewPager;
 import com.github.dubulee.coordinatorlayouthelper.HeaderLayout;
@@ -34,7 +33,6 @@ public class MainActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("dlworf", "dlworlf");
         System.out.println(ANSI_RED + "This text is red!" + ANSI_RESET);
 
 
@@ -53,7 +51,7 @@ public class MainActivity extends FragmentActivity {
         HeaderLayoutBehavior headerLayoutBehavior = (HeaderLayoutBehavior) ((CoordinatorLayout.LayoutParams) headerLayout.getLayoutParams()).getBehavior();
 
         headerLayoutBehavior.setScrollRootViewPosition(CONTENTS_VIEW_POSITION);
-        headerLayoutBehavior.setScrollViewPosition(SCROLL_VIEW_POSITION);
+//        headerLayoutBehavior.setScrollViewPosition(SCROLL_VIEW_POSITION);
     }
 
     private void setupViewPager(ViewPager viewPager) {

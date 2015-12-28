@@ -4,7 +4,11 @@ import android.content.Context;
 import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
 import android.view.View;
-
+/**
+ * ViewOffsetBehavior.java
+ * Created by DUBULEE on 2015/12/27.
+ * Copyright (c) DUBULEE. All rights reserved.
+ */
 public class ViewOffsetBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
     private ViewOffsetHelper mViewOffsetHelper;
     private int mTempTopBottomOffset = 0;

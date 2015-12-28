@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.view.ScrollingView;
 import android.support.v4.view.ViewCompat;
+import android.support.v4.widget.NestedScrollView;
 import android.support.v4.widget.ScrollerCompat;
 import android.util.AttributeSet;
 import android.view.View;
@@ -11,7 +12,11 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
-
+/**
+ * HeaderLayoutBehavior.java
+ * Created by DUBULEE on 2015/12/27.
+ * Copyright (c) DUBULEE. All rights reserved.
+ */
 public class HeaderLayoutBehavior<V extends View> extends ViewOffsetBehavior<HeaderLayout> {
     private static final String TAG = HeaderLayoutBehavior.class.getSimpleName();
 
@@ -39,7 +44,7 @@ public class HeaderLayoutBehavior<V extends View> extends ViewOffsetBehavior<Hea
 
     private CoordinatorLayoutHelperRecyclerView mScrollView = null;
 
-    private ArrayList<CoordinatorLayoutHelperRecyclerView> mScrollViewList = new ArrayList<>();
+    private ArrayList<View> mScrollViewList = new ArrayList<>();
 
     public HeaderLayoutBehavior() {
     }
@@ -141,6 +146,9 @@ public class HeaderLayoutBehavior<V extends View> extends ViewOffsetBehavior<Hea
             if (view instanceof CoordinatorLayoutHelperRecyclerView) {
                 mScrollViewList.add(((CoordinatorLayoutHelperRecyclerView) rootViewGroup.getChildAt(z)));
             }
+            else if (view instanceof NestedScrollView) {
+                mScrollViewList.add(((NestedScrollView) rootViewGroup.getChildAt(z)));
+            }
         }
 
     }
@@ -164,12 +172,32 @@ public class HeaderLayoutBehavior<V extends View> extends ViewOffsetBehavior<Hea
             int currentOffset = getTopAndBottomOffset();
             int newOffset = Math.min(Math.max(min, currentOffset - dy), max);
             consumed[1] = newOffset - currentOffset;
-            if (null != mScrollViewList.get(mViewPager.getCurrentItem())) {
+
+            View scrollView = mScrollViewList.get(mViewPager.getCurrentItem());
+            CoordinatorLayoutHelperRecyclerView recyclerView = null;
+            CoordinatorLayoutHelperNestedScrollView nestedScrollView = null;
+
+
+            if (null != scrollView) {
                 if (dy > 0) {
                     setTopAndBottomOffset(newOffset);
-                } else if (mScrollViewList.get(mViewPager.getCurrentItem()).getVerticalScrollOffset() == 0) {
-                    setTopAndBottomOffset(newOffset);
                 }
+                else {
+                    if (scrollView instanceof CoordinatorLayoutHelperRecyclerView) {
+                        recyclerView = (CoordinatorLayoutHelperRecyclerView) scrollView;
+                        if (recyclerView.getVerticalScrollOffset() == 0) {
+                            setTopAndBottomOffset(newOffset);
+                        }
+                    }
+                    else if (scrollView instanceof CoordinatorLayoutHelperNestedScrollView) {
+                        nestedScrollView = (CoordinatorLayoutHelperNestedScrollView) scrollView;
+                        if (nestedScrollView.getVerticalScrollOffset() == 0) {
+                            setTopAndBottomOffset(newOffset);
+                        }
+
+                    }
+                }
+
             } else {
                 if (dy != 0) {
                     setTopAndBottomOffset(newOffset);

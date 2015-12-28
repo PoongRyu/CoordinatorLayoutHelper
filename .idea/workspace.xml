@@ -11,13 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f73342d3-f9ee-4d0a-9a04-e92a0b2e866c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/coordinatorlayouthelper_0_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperNestedScrollView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/github/dubulee/coordinatorlayouthelpersample/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/github/dubulee/coordinatorlayouthelpersample/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/build.gradle" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/coordinatorlayouthelper-coordinatorlayouthelper.iml" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/coordinatorlayouthelper-coordinatorlayouthelper.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ContentsLayoutBehavior.java" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ContentsLayoutBehavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperRecyclerView.java" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperRecyclerView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperViewPager.java" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperViewPager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayout.java" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayout.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayoutBehavior.java" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayoutBehavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ViewOffsetBehavior.java" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ViewOffsetBehavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ViewOffsetHelper.java" afterPath="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ViewOffsetHelper.java" />
     </list>
     <ignored path="coordinatorlayouthelper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,34 +54,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52021855">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
+      <file leaf-file-name="GridViewPageFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/dubulee/coordinatorlayouthelpersample/GridViewPageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/dubulee/coordinatorlayouthelpersample/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -81,104 +78,71 @@
         <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayoutBehavior.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="142" column="13" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+              <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentsLayoutBehavior.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ContentsLayoutBehavior.java">
+      <file leaf-file-name="CoordinatorLayoutHelperNestedScrollView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperNestedScrollView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Log.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/util/Log.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="220" column="29" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="29" />
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2714#2715#0" expanded="true" />
-                <element signature="e#2774#2775#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintStream.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/io/PrintStream.java">
+      <file leaf-file-name="CoordinatorLayoutHelperRecyclerView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperRecyclerView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="427" column="29" selection-start-line="427" selection-start-column="29" selection-end-line="427" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#22819#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#8856#8857#0" expanded="false" />
-                <element signature="e#8887#8888#0" expanded="false" />
-                <element signature="e#13198#13199#0" expanded="false" />
-                <element signature="e#13241#13242#0" expanded="false" />
-                <element signature="e#14443#14444#0" expanded="false" />
-                <element signature="e#14488#14489#0" expanded="false" />
-                <element signature="e#14790#14791#0" expanded="false" />
-                <element signature="e#14830#14831#0" expanded="false" />
-                <element signature="e#14946#14947#0" expanded="false" />
-                <element signature="e#14986#14987#0" expanded="false" />
-                <element signature="e#15100#15101#0" expanded="false" />
-                <element signature="e#15140#15141#0" expanded="false" />
-                <element signature="e#15250#15251#0" expanded="false" />
-                <element signature="e#15290#15291#0" expanded="false" />
-                <element signature="e#15402#15403#0" expanded="false" />
-                <element signature="e#15442#15443#0" expanded="false" />
-                <element signature="e#15577#15578#0" expanded="false" />
-                <element signature="e#15617#15618#0" expanded="false" />
-                <element signature="e#16662#16663#0" expanded="false" />
-                <element signature="e#16702#16703#0" expanded="false" />
-                <element signature="e#16772#16773#0" expanded="false" />
-                <element signature="e#16797#16798#0" expanded="false" />
-                <element signature="e#16954#16955#0" expanded="false" />
-                <element signature="e#17013#17014#0" expanded="false" />
-                <element signature="e#17149#17150#0" expanded="false" />
-                <element signature="e#17191#17192#0" expanded="false" />
-                <element signature="e#17331#17332#0" expanded="false" />
-                <element signature="e#17373#17374#0" expanded="false" />
-                <element signature="e#17510#17511#0" expanded="false" />
-                <element signature="e#17552#17553#0" expanded="false" />
-                <element signature="e#17685#17686#0" expanded="false" />
-                <element signature="e#17727#17728#0" expanded="false" />
-                <element signature="e#17863#17864#0" expanded="false" />
-                <element signature="e#17905#17906#0" expanded="false" />
-                <element signature="e#18072#18073#0" expanded="false" />
-                <element signature="e#18114#18115#0" expanded="false" />
-                <element signature="e#18813#18814#0" expanded="false" />
-                <element signature="e#18855#18856#0" expanded="false" />
-                <element signature="e#18961#18962#0" expanded="false" />
-                <element signature="e#18991#18992#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="RecyclerView.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.959077">
+              <caret line="143" column="61" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScrollingView.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/android/support/v4/view/ScrollingView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NestedScrollingChild.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/android/support/v4/view/NestedScrollingChild.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinatorLayoutHelperViewPager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperViewPager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -188,13 +152,20 @@
         <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -658,9 +629,9 @@
                 <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare coordinatorlayouthelper:coordinatorlayouthelper:unspecified" />
+                <option name="description" value="Prepare com.github.dubulee:coordinatorlayouthelper:0.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareCoordinatorlayouthelperCoordinatorlayouthelperUnspecifiedLibrary" />
+                <option name="name" value="prepareComGithubDubuleeCoordinatorlayouthelper011Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1505,9 +1476,9 @@
                 <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare coordinatorlayouthelper:coordinatorlayouthelper:unspecified" />
+                <option name="description" value="Prepare com.github.dubulee:coordinatorlayouthelper:0.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareCoordinatorlayouthelperCoordinatorlayouthelperUnspecifiedLibrary" />
+                <option name="name" value="prepareComGithubDubuleeCoordinatorlayouthelper011Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2496,7 +2467,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5804792574000" />
+        <entry key="$PROJECT_DIR$" value="5804801588000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2765,6 +2736,7 @@
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/design/23.1.1/design-23.1.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/cardview-v7/23.1.1/cardview-v7-23.1.1.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dubulee/coordinatorlayouthelper/0.1.1/f713c9575b8fb910ea4800cc792ade86702f519c/coordinatorlayouthelper-0.1.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
@@ -3181,11 +3153,17 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ViewOffsetBehavior.java" />
+        <option value="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ViewOffsetHelper.java" />
+        <option value="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayout.java" />
+        <option value="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperViewPager.java" />
+        <option value="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperRecyclerView.java" />
         <option value="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ContentsLayoutBehavior.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/github/dubulee/coordinatorlayouthelpersample/MainActivity.java" />
+        <option value="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperNestedScrollView.java" />
         <option value="$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayoutBehavior.java" />
         <option value="$PROJECT_DIR$/coordinatorlayouthelper/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -3220,9 +3198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
       <pane id="ProjectPane" />
       <pane id="PackagesPane">
         <subPane>
@@ -3316,7 +3291,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3334,6 +3308,42 @@
               <option name="myItemId" value="coordinatorlayouthelper" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coordinatorlayouthelper-coordinatorlayouthelper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coordinatorlayouthelper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coordinatorlayouthelper-coordinatorlayouthelper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coordinatorlayouthelper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coordinatorlayouthelper-coordinatorlayouthelper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coordinatorlayouthelper" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3346,6 +3356,10 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -3636,6 +3650,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21587302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3655,7 +3670,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3669,6 +3683,104 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/util/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="220" column="29" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="449" column="53" selection-start-line="449" selection-start-column="53" selection-end-line="449" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#22819#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8856#8857#0" expanded="false" />
+            <element signature="e#8887#8888#0" expanded="false" />
+            <element signature="e#13198#13199#0" expanded="false" />
+            <element signature="e#13241#13242#0" expanded="false" />
+            <element signature="e#14443#14444#0" expanded="false" />
+            <element signature="e#14488#14489#0" expanded="false" />
+            <element signature="e#14621#14622#0" expanded="false" />
+            <element signature="e#14678#14679#0" expanded="false" />
+            <element signature="e#14790#14791#0" expanded="false" />
+            <element signature="e#14830#14831#0" expanded="false" />
+            <element signature="e#14946#14947#0" expanded="false" />
+            <element signature="e#14986#14987#0" expanded="false" />
+            <element signature="e#15100#15101#0" expanded="false" />
+            <element signature="e#15140#15141#0" expanded="false" />
+            <element signature="e#15250#15251#0" expanded="false" />
+            <element signature="e#15290#15291#0" expanded="false" />
+            <element signature="e#15402#15403#0" expanded="false" />
+            <element signature="e#15442#15443#0" expanded="false" />
+            <element signature="e#15577#15578#0" expanded="false" />
+            <element signature="e#15617#15618#0" expanded="false" />
+            <element signature="e#16662#16663#0" expanded="false" />
+            <element signature="e#16702#16703#0" expanded="false" />
+            <element signature="e#16772#16773#0" expanded="false" />
+            <element signature="e#16797#16798#0" expanded="false" />
+            <element signature="e#16954#16955#0" expanded="false" />
+            <element signature="e#17013#17014#0" expanded="false" />
+            <element signature="e#17149#17150#0" expanded="false" />
+            <element signature="e#17191#17192#0" expanded="false" />
+            <element signature="e#17331#17332#0" expanded="false" />
+            <element signature="e#17373#17374#0" expanded="false" />
+            <element signature="e#17510#17511#0" expanded="false" />
+            <element signature="e#17552#17553#0" expanded="false" />
+            <element signature="e#17685#17686#0" expanded="false" />
+            <element signature="e#17727#17728#0" expanded="false" />
+            <element signature="e#17863#17864#0" expanded="false" />
+            <element signature="e#17905#17906#0" expanded="false" />
+            <element signature="e#18072#18073#0" expanded="false" />
+            <element signature="e#18114#18115#0" expanded="false" />
+            <element signature="e#18813#18814#0" expanded="false" />
+            <element signature="e#18855#18856#0" expanded="false" />
+            <element signature="e#18961#18962#0" expanded="false" />
+            <element signature="e#18991#18992#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3681,7 +3793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3691,6 +3802,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2021#2068#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3709,8 +3821,6 @@
           <caret line="16" column="20" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-            <element signature="e#2774#2775#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3728,6 +3838,8 @@
             <element signature="e#13241#13242#0" expanded="false" />
             <element signature="e#14443#14444#0" expanded="false" />
             <element signature="e#14488#14489#0" expanded="false" />
+            <element signature="e#14621#14622#0" expanded="false" />
+            <element signature="e#14678#14679#0" expanded="false" />
             <element signature="e#14790#14791#0" expanded="false" />
             <element signature="e#14830#14831#0" expanded="false" />
             <element signature="e#14946#14947#0" expanded="false" />
@@ -3813,7 +3925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3864,7 +3975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3892,29 +4002,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="427" column="29" selection-start-line="427" selection-start-column="29" selection-end-line="427" selection-end-column="29" />
+          <caret line="449" column="53" selection-start-line="449" selection-start-column="53" selection-end-line="449" selection-end-column="53" />
           <folding>
             <element signature="e#0#22819#0" expanded="false" />
             <element signature="imports" expanded="false" />
@@ -3924,6 +4022,8 @@
             <element signature="e#13241#13242#0" expanded="false" />
             <element signature="e#14443#14444#0" expanded="false" />
             <element signature="e#14488#14489#0" expanded="false" />
+            <element signature="e#14621#14622#0" expanded="false" />
+            <element signature="e#14678#14679#0" expanded="false" />
             <element signature="e#14790#14791#0" expanded="false" />
             <element signature="e#14830#14831#0" expanded="false" />
             <element signature="e#14946#14947#0" expanded="false" />
@@ -3968,24 +4068,87 @@
           <caret line="220" column="29" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2714#2715#0" expanded="true" />
-            <element signature="e#2774#2775#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.419354">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listview_page_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ViewOffsetBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ViewOffsetHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/ContentsLayoutBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayoutBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="13" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -3993,25 +4156,54 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/dubulee/coordinatorlayouthelpersample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2021#2068#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/dubulee/coordinatorlayouthelpersample/ListViewPageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/dubulee/coordinatorlayouthelpersample/GridViewPageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperNestedScrollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/HeaderLayoutBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -4019,15 +4211,47 @@
     <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperViewPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52021855">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatorlayouthelper/src/main/java/com/github/dubulee/coordinatorlayouthelper/CoordinatorLayoutHelperRecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/android/support/v4/view/NestedScrollingChild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/android/support/v4/view/ScrollingView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.959077">
+          <caret line="143" column="61" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
           <folding />
         </state>
       </provider>

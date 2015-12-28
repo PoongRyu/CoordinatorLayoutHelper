@@ -3,7 +3,11 @@ package com.github.dubulee.coordinatorlayouthelper;
 import android.os.Build;
 import android.support.v4.view.ViewCompat;
 import android.view.View;
-
+/**
+ * ViewOffsetHelper.java
+ * Created by DUBULEE on 2015/12/27.
+ * Copyright (c) DUBULEE. All rights reserved.
+ */
 public class ViewOffsetHelper {
     private final View mView;
     private int mLayoutTop;

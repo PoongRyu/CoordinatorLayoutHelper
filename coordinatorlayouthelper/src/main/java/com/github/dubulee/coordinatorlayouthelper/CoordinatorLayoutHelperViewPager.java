@@ -5,7 +5,9 @@ import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 
 /**
- * Created by dubu on 2015. 12. 26..
+ * CoordinatorLayoutHelperViewPager.java
+ * Created by DUBULEE on 2015/12/27.
+ * Copyright (c) DUBULEE. All rights reserved.
  */
 public class CoordinatorLayoutHelperViewPager extends ViewPager {
     public CoordinatorLayoutHelperViewPager(Context context) {
